@@ -1,0 +1,50 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color : #f1faee;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size : medium;
+  color : black;
+  line-height : 1.6;
+}
+
+h1, h2 {
+  color : red;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height : normal;
+}
+a {
+  color :
+  text-decoration : none ;
+  opacity: 0.2;
+}
+
+a:hover {
+  opacity: 1;
+  color : red;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card{
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius : 6px ;
+  box-shadow: 2px 4px 5px grey;
+  margin : 20px 0px;
+  opacity: 0.9;
+}
+
+.img-circle{
+border-radius : 50% ;
+}
+img{
+  width : 100px;
+}
